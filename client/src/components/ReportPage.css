@@ -1,0 +1,76 @@
+.report-page {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around; /* Space out the statistics */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  margin-bottom: 20px;
+}
+
+.statistic {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.statistic h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.statistic p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #61dafb; /* Highlight the statistics */
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #b0b0b0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
